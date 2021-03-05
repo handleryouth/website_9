@@ -226,6 +226,10 @@ p {
 }
 
 @media(max-width:940px) {
+  body{
+    background-image: url("../images/bg-header-mobile.png");
+  }
+
   h1{
     padding: 0 3px;
   }
