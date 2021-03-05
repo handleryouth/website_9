@@ -38,14 +38,23 @@ p {
 
 .headerbutton1, .headerbutton2 {
   border-radius: 20px;
+  cursor: pointer;
+  border-width: 0;
 }
 
 .headerbutton1 {
   background-color: hsl(171, 66%, 44%);
+
 }
 
 .headerbutton2 {
   background-color: hsl(233, 100%, 69%);
+}
+
+.headerbutton1:hover, .headerbutton2:hover{
+  opacity: 0.5;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
 }
 
 /*third page*/
@@ -152,6 +161,11 @@ p {
   color: black;
   text-decoration: none;
 }
+
+.link-attach:hover,.link-attach1:hover,.fab:hover{
+  color: hsl(171, 66%, 44%);
+}
+
 
 .social-media-icon {
   margin: 0 10px;
