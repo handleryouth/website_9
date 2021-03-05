@@ -158,6 +158,10 @@ p {
 }
 
 @media (max-width:1281px) {
+  .header-title-description{
+    padding: 0 250px;
+  }
+
   .second-page-description {
     padding: 0 250px;
   }
@@ -193,6 +197,10 @@ p {
 }
 
 @media (max-width:1051px) {
+  .header-title-description{
+    padding: 0 250px;
+  }
+
   .imac-img {
     width: 600px;
     height: 500px;
@@ -289,7 +297,7 @@ p {
     margin: 0;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .table1, .table2, .table3 {
