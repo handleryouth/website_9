@@ -218,6 +218,9 @@ p {
 }
 
 @media(max-width:940px) {
+  h1{
+    padding: 0 3px;
+  }
   p {
     font-size: 15px;
   }
@@ -233,7 +236,7 @@ p {
   }
 
   .header-title-description {
-    padding: 0;
+    padding: 0 10px;
   }
 
   .headerbutton1, .headerbutton2 {
@@ -242,20 +245,24 @@ p {
 
   /*for the second page*/
   .second-page-description {
-    padding: 0;
+    padding: 0 10px;
   }
 
   /*for the third page*/
+  .third-page{
+    text-align: center;
+  }
+
   .imac-img {
-    width: 300px;
+    width: 350px;
     height: 250px;
     position: static;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    float: none;
   }
 
   .third-page-description {
-    padding: 0;
-    text-align: center;
+    padding: 0 10px;
     font-size: 15px;
   }
 
@@ -281,24 +288,26 @@ p {
   .fifth-page {
     margin: 0;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
   }
 
   .table1, .table2, .table3 {
     margin: 10px 0;
-    width: 300px;
+    width:auto;
   }
 
   /*for the sixth page*/
+
   .brand-images {
-    margin-top: 50px;
-    margin-bottom: 0;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
   }
 
   /*for the seventh page*/
   .seventh-page-description {
-    padding: 0;
+    padding: 0 10px;
   }
 
   /*another-information*/
