@@ -1,0 +1,335 @@
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+  background-image: url("../images/bg-header-desktop.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 17px;
+}
+
+.header-title, .seventh-page, .second-page,
+.up, .middle, .down, .fifth-page, .sponsor-images {
+  text-align: center;
+}
+
+.header-title-description, .second-page-description, .up-description {
+  padding: 0 450px;
+}
+
+.header-title, .second-page {
+  margin: 100px 0;
+}
+
+/*button configuration*/
+.header-button {
+  width: 180px;
+  height: 45px;
+  margin: 10px;
+  color: #fff;
+}
+
+.headerbutton1, .headerbutton2 {
+  border-radius: 20px;
+}
+
+.headerbutton1 {
+  background-color: hsl(171, 66%, 44%);
+}
+
+.headerbutton2 {
+  background-color: hsl(233, 100%, 69%);
+}
+
+/*third page*/
+.imac-img {
+  position: relative;
+  right: 60px;
+  float: left;
+  margin-right: 60px;
+}
+
+.third-page-description {
+  padding: 25px 200px 0 0;
+  font-size: 18px;
+  line-height: 1.5
+}
+
+/*fourth page*/
+.fourth-page {
+  margin-top: 325px;
+}
+
+.up {
+  clear: left;
+}
+
+.ipad-img {
+  margin-top: 50px;
+}
+
+/*fifth page*/
+.fifth-page {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+}
+
+.table1, .table2, .table3 {
+  width: 500px;
+  margin: 0 20px;
+  padding: 0 20px;
+}
+
+.blacklist-img {
+  height: 32px;
+}
+
+/*sixth page*/
+.sponsor-images {
+  margin-bottom: 100px;
+}
+
+.brand-images {
+  margin: 0 50px;
+}
+
+/*seventh page*/
+.seventh-page {
+  margin: 150px 0;
+}
+
+.seventh-page-description {
+  padding: 0 400px;
+}
+
+/*another-information*/
+.another-information, .left, .link-list, .list1, .list2, .list3 {
+  display: flex;
+}
+
+.another-information {
+  margin: 50px 0;
+  padding: 50px 0;
+  justify-content: space-around;
+  align-items: center;
+  background-color: hsl(73, 7%, 87%);
+}
+
+.down-logo {
+  width: 60px;
+  height: 60px;
+}
+
+.link-list {
+  flex-direction: row;
+  align-items: center;
+  margin: 0 50px;
+}
+
+.list1, .list2, .list3 {
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 50px 0 0;
+}
+
+.link-attach {
+  padding: 5px 0;
+  color: black;
+  text-decoration: none;
+}
+
+.link-attach1 {
+  position: relative;
+  bottom: 15px;
+  color: black;
+  text-decoration: none;
+}
+
+.social-media-icon {
+  margin: 0 10px;
+}
+
+@media (max-width:1281px) {
+  .second-page-description {
+    padding: 0 250px;
+  }
+
+  /*for the third-page-description*/
+  .imac-img {
+    width: 600px;
+    height: 500px;
+    margin: 0;
+  }
+
+  .third-page-description {
+    padding: 25px 100px 0 0;
+    line-height: 1.5;
+    font-size: 15px;
+  }
+
+  .up-description {
+    padding: 0 250px;
+  }
+
+  .seventh-page-description {
+    padding: 0 200px;
+  }
+
+  .table1, .table2, .table3 {
+    padding: 0;
+  }
+
+  .brand-images {
+    margin: 0 10px;
+  }
+}
+
+@media (max-width:1051px) {
+  .imac-img {
+    width: 600px;
+    height: 500px;
+    margin: 0;
+  }
+
+  .third-page-description {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 968px) {
+  .imac-img {
+    width: 600px;
+    height: 500px;
+    margin: 0;
+  }
+
+  .third-page-description {
+    font-size: 13px;
+    padding: 0 50px 0 0;
+  }
+}
+
+@media(max-width:940px) {
+  p {
+    font-size: 15px;
+  }
+
+  /*for the first page*/
+  .big-logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .big-title {
+    font-size: 30px;
+  }
+
+  .header-title-description {
+    padding: 0;
+  }
+
+  .headerbutton1, .headerbutton2 {
+    width: 270px;
+  }
+
+  /*for the second page*/
+  .second-page-description {
+    padding: 0;
+  }
+
+  /*for the third page*/
+  .imac-img {
+    width: 300px;
+    height: 250px;
+    position: static;
+    margin-bottom: 50px;
+  }
+
+  .third-page-description {
+    padding: 0;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  /*for the fourth page*/
+  .fourth-page {
+    margin: 150px 0 50px 0;
+  }
+
+  .middle {
+    margin: 10px 0;
+  }
+
+  .up-description {
+    padding: 0;
+  }
+
+  .ipad-img {
+    width: 300px;
+    height: 200px;
+  }
+
+  /*for the fifth page*/
+  .fifth-page {
+    margin: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .table1, .table2, .table3 {
+    margin: 10px 0;
+    width: 300px;
+  }
+
+  /*for the sixth page*/
+  .brand-images {
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+
+  /*for the seventh page*/
+  .seventh-page-description {
+    padding: 0;
+  }
+
+  /*another-information*/
+  .another-information, .left, .link-list, .list1, .list2, .list3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .left, .link-list, .list1, .list2, .list3 {
+    margin: 0;
+    text-align: center;
+  }
+
+  .link-attach, .link-attach1 {
+    margin: 20px 0;
+    padding: 0;
+  }
+
+  .link-attach1 {
+    position: static;
+    padding: 0;
+  }
+
+  .list1, .list2, .list3 {
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .link-list {
+    margin: 30px 0;
+  }
+}
